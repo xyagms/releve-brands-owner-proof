@@ -181,3 +181,66 @@
   .product-gallery figure:first-child { min-height: 330px; }
   .cart-lines article { grid-template-columns: 1fr; }
 }
+
+/* v2.3 owner-requested content: story, FAQ, footer, policy tabs */
+.brand-story,
+.faq-section {
+  max-width: 1340px;
+  margin: clamp(2rem, 6vw, 5rem) auto;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  border-radius: 2rem;
+  background: rgba(255,255,255,.9);
+  border: 1px solid rgba(18,60,124,.12);
+  box-shadow: 0 24px 70px rgba(6,22,46,.1);
+}
+.brand-story {
+  display: grid;
+  grid-template-columns: minmax(280px,.75fr) minmax(0,1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+}
+.story-photo-card {
+  overflow: hidden;
+  border-radius: 1.45rem;
+  background: linear-gradient(145deg,#eef7ff,#fff);
+  border: 1px solid rgba(18,60,124,.12);
+  min-height: 420px;
+  display: grid;
+  place-items: center;
+}
+.story-photo-card img { width: 100%; height: 100%; min-height: 420px; object-fit: cover; }
+.brand-story h2,
+.faq-section h2 { color: var(--blue); }
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+.faq-grid article,
+.policy-card,
+.product-directions {
+  background: #f7fbff;
+  border: 1px solid rgba(18,60,124,.1);
+  border-radius: 1.2rem;
+  padding: 1rem;
+}
+.faq-grid h3,
+.policy-card h3,
+.product-directions h3 { color: var(--blue); }
+.footer-links { display:flex; flex-wrap:wrap; gap:.55rem .9rem; margin-bottom:1rem; }
+.footer-links a { font-weight:900; text-decoration:none; border-bottom:1px solid rgba(255,255,255,.45); }
+.product-tabs {
+  display: grid;
+  gap: .9rem;
+  margin: 1.2rem 0;
+}
+.policy-card ul { margin: .4rem 0 0; padding-left: 1.15rem; color: var(--muted); }
+.policy-card p,
+.product-directions p { margin:.35rem 0; }
+@media(max-width:900px){
+  .brand-story,
+  .faq-grid { grid-template-columns:1fr; }
+  .story-photo-card,
+  .story-photo-card img { min-height: 320px; }
+}

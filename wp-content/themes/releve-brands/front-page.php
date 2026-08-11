@@ -26,12 +26,12 @@ $products = [
         <div class="future-glow glow-a"></div>
         <div class="future-glow glow-b"></div>
         <div class="future-hero-copy">
-            <p class="eyebrow">Releve Brands • Future Wellness Storefront</p>
-            <h1>Natural relief with a sharper digital edge.</h1>
-            <p class="future-lede">A modern blue wellness experience built around Releve’s current product lineup, high-resolution imagery, clear prices, and a review-ready shopping flow.</p>
+            <p class="eyebrow">Releve Brands • Natural Wellness Storefront</p>
+            <h1>Everyday natural relief and wellness products you can trust for your whole family.</h1>
+            <p class="future-lede">A polished blue wellness experience built around Releve’s current product lineup, high-resolution imagery, clear prices, product details, and a review-ready shopping flow.</p>
             <div class="hero-actions">
                 <a class="button primary" href="shop.html">Shop Products</a>
-                <a class="button secondary" href="#future-lineup">View Lineup</a>
+                <a class="button secondary" href="#about">Meet Releve</a>
             </div>
             <div class="future-stats">
                 <span><strong>12</strong> Products</span>
@@ -59,13 +59,26 @@ $products = [
     </section>
 
     <section class="future-strip" aria-label="Releve benefits">
-        <span>CBD Wellness</span><span>Pain Relief</span><span>Aromatherapy</span><span>Body Care</span><span>Outdoor Essentials</span>
+        <span>CBD Wellness</span><span>Pain Relief</span><span>Aromatherapy</span><span>Body Care</span><span>Outdoor Essentials</span><span>Family Wellness</span>
+    </section>
+
+    <section id="about" class="brand-story">
+        <div class="story-photo-card">
+            <img src="<?php echo esc_url($asset_base . 'shop-photo-1.jpg'); ?>" alt="Releve Brands founder and product display">
+        </div>
+        <div>
+            <p class="eyebrow">About Releve</p>
+            <h2>Handcrafted natural care with a real family story.</h2>
+            <p>In August 2016, Wendy Williams started searching for safe anti-bacterial products for her family. She researched the effects of natural ingredients and began experimenting in her kitchen until she created products with the results she was looking for.</p>
+            <p>After sharing her products with friends and family, their response encouraged her to start Releve Brands. In September 2018, after researching the anti-inflammatory and pain-relieving properties of CBD, Wendy began incorporating CBD isolate into select products and found it enhanced and accelerated the effects.</p>
+            <p>Now everyone can enjoy the benefits of Releve’s all-natural products.</p>
+        </div>
     </section>
 
     <section id="future-lineup" class="future-section-head">
         <p class="eyebrow">Current Releve Lineup</p>
         <h2>Every product gets a premium card.</h2>
-        <p>Clear product names, prices, and sharp visuals so the owner can review the full store experience quickly.</p>
+        <p>Clear product names, prices, sharp visuals, and clickable product pages so the owner can review the full store experience quickly.</p>
     </section>
 
     <section class="future-product-grid">
@@ -91,6 +104,25 @@ $products = [
             <img src="<?php echo esc_url($asset_base . 'products-web/shower-steamer-spray.jpg'); ?>" alt="Shower Steamer Spray">
             <img src="<?php echo esc_url($asset_base . 'products-web/essential-oil-inhalers.jpg'); ?>" alt="Essential Oil Inhalers">
             <img src="<?php echo esc_url($asset_base . 'products-web/bug-spray.jpg'); ?>" alt="Bug Spray">
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <p class="eyebrow">FAQ</p>
+        <h2>Frequently asked questions</h2>
+        <div class="faq-grid">
+            <article>
+                <h3>What type of ingredients are in Releve products?</h3>
+                <p>All Releve products are made with 100% natural ingredients. Proprietary blends use herbs and essential oils selected for safe, effective results. CBD isolate is used in some products to enhance anti-inflammatory effects.</p>
+            </article>
+            <article>
+                <h3>How do I know which Releve products contain CBD?</h3>
+                <p>Products that include CBD are clearly identified in the product description and detail page so customers can choose the option that fits their needs.</p>
+            </article>
+            <article>
+                <h3>Are Releve products safe for children?</h3>
+                <p>Releve products are made with natural ingredients, but customers should review each product’s details and consult a healthcare professional when needed, especially for children or sensitive skin.</p>
+            </article>
         </div>
     </section>
 </main>
