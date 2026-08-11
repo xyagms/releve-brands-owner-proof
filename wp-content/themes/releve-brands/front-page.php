@@ -110,10 +110,12 @@ $products = [
     <section id="faq" class="faq-section">
         <p class="eyebrow">FAQ</p>
         <h2>Frequently asked questions</h2>
+        <p class="faq-kicker">Looking for something? Here are the core Releve Products questions customers ask first.</p>
         <div class="faq-grid">
             <article>
                 <h3>What type of ingredients are in Releve products?</h3>
-                <p>All Releve products are made with 100% natural ingredients. Proprietary blends use herbs and essential oils selected for safe, effective results. CBD isolate is used in some products to enhance anti-inflammatory effects.</p>
+                <p>All Releve products are made with 100% natural ingredients. Proprietary blends use the finest herbs and essential oils selected for safe, effective results. CBD isolate is used in some products to enhance anti-inflammatory effects.</p>
+                <p>All Releve products are paraben free and contain no toxic chemicals.</p>
             </article>
             <article>
                 <h3>How do I know which Releve products contain CBD?</h3>
